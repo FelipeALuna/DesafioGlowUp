@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+   font-family: 'Roboto';
+   margin: 0;
+   padding: 0;
+   color: #9B9B9B;
+}
+header{
+    background: rgba(0, 121, 107, 1);
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1600px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header ul{
+    color: #fff;
+    font-size:20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+}
+header ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+section.solucoes{
+    margin: 150px auto;
+    height: 76vh;
+
+}
+section.solucoes .container{
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+section.solucoes .container .banner img{
+    width:770px;
+    height:443px;
+
+}
+section.solucoes .container .texto{
+    width: 501px;
+    height: 160px;
+    font-size: 20px;
+    line-height: 29px;
+    color:rgba(155, 155, 155, 1);
+
+}
+section.solucoes .container .texto h2{
+    color: rgba(0, 150, 136, 1);
+    font-weight: bold;
+    font-style: normal;
+    font-variant: small-caps;
+}
+footer{
+    
+    width: 100%;
+    height: 5px;
+    background-color: #c4c4c4;
+    color: #fff;
+    padding: 80px 0;
+}
+footer.container{
+    justify-content:center;
+    align-items:center;
+    width: 100%;
+    margin-top: 100px;
+    font-weight: 400;
+}
+footer .container{
+    justify-content:center;
+    align-items:center;
+}
+footer h3{
+    padding: 0;
+    margin:0;
+}
+/* Pagina sobre */
+section.sobre{
+    margin: 80px auto;
+}
+section.sobre .container{
+    justify-content: space-around;
+    align-items: center;
+}
+section.sobre .container .sobre-texto{
+    width: 602px;
+    
+}
+section.sobre .container .sobre-texto h2{
+    font-size:60px;
+    font-weight: 900;
+    color: rgba(0, 121, 107, 1);
+}
+section.sobre .container .sobre-texto p{
+    font-size: 24px;
+    line-height: 28px;
+    color: #9B9B9B;
+}
+section.sobre .container .sobre-texto h3{
+    font-size:35px;
+    font-weight: 700;
+    line-height: 41,02px;
+    color: rgba(0, 121, 107, 1);
+}
+section.sobre .container .sobre-texto ul{
+    list-style: decimal;
+    color: #9B9B9B;
+    font-size: 24px;
+}
+section.video{
+    margin: 180px auto;
+}
+section.video .container{
+    justify-content: center;
+    align-items: center;
+}
+section.video .container iframe{
+    width: 100%;
+    height: 800px;
+}
+section.texto-video{
+    margin:180px auto;
+}
+section.texto-video .container{
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+}
+section.texto-video .container h3{
+    color:rgba(0, 121, 107, 1);
+    font-size: 35px;
+    font-weight: 700;
+}
+section.texto-video .container p{
+    font-size:24px;
+
+}
+
+/* Pagina Serviços */
+section.tituloServicos{
+    font-weight: 900;
+    font-size:60px;
+    line-height: 70,31;
+    color:rgba(0, 121, 107, 1);
+}
+section.servicos .container{
+    justify-content: space-between;
+    align-items: center;
+}
+section.servicos .container article{
+    margin: 90px auto;
+}
+section.servicos .container .imagemServicos{
+    width:530px;
+    height:356,98px;
+}
+section.servicos .container .textoServicos{
+    width: 562px;
+
+}
+section.servicos .container .textoServicos h3{
+    font-size: 35px;
+    line-height: 41px;
+    font-weight: 700;
+    color:rgba(0, 121, 107, 1) ;
+}
+section.servicos .container .textoServicos  p{
+    font-size: 24px;
+    weight: 400px;
+}
+
+/* Pagina de contatos */
+
+section.tituloContato{
+    color:rgba(0, 121, 107, 1);
+    font-weight: 900;
+    font-size: 40px;
+}
+section.sectionFormContato .container{
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.sectionFormContato article{
+    width:538px;
+}
+section.sectionFormContato input,
+section.sectionFormContato textarea{
+    width:100%;
+    padding: 3px;
+    resize: none;
+    margin: 0 0 20px;
+}
+section.sectionFormContato button{
+    width:175px;
+    background-color: rgba(0, 150, 136, 1);
+    font-weight: 700;
+    color: #fff;
+    font-size:20px;
+    border:none;
+}
+section.sectionFormContato .mapa iframe{
+    width:100%;
+    height:216px;
+    border:none;
+}
+section.sectionFormContato .contatos{
+    font-size: 20px;
+    font-weight:400px;
+}
+section.sectionFormContato .contatos a{
+    color:rgba(0, 121, 107, 1) ;
+    text-decoration: none;
+}
+#footercont{
+    margin-top: 200px;;
+
+}
